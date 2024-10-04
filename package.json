@@ -6,8 +6,8 @@
     "test": "mocha -R spec test/"
   },
   "author": {
-    "name": "Robert Klep",
-    "email": "robert.klep@gmail.com"
+    "name": "Prasanna Limaye",
+    "email": "prasannalimaye@gmail.com"
   },
   "keywords": [
     "e-mail",
@@ -31,6 +31,7 @@
   "dependencies": {
     "isstream": "^0.1.2",
     "line-stream": "^1.0.0",
+    "mailparser": "^3.4.0",
     "string-to-stream": "^1.1.0"
   },
   "engines": {

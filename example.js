@@ -4,6 +4,7 @@ const Mbox        = require('./src/mbox');
 const mbox        = new Mbox();
 
 // wait for message events
+
 mbox.on('message', function(msg) {
   // parse message using MailParser
   let mailparser = new MailParser({ streamAttachments : true });
@@ -16,4 +17,6 @@ mbox.on('message', function(msg) {
 });
 
 // pipe stdin to mbox parser
+
+
 process.stdin.pipe(mbox);
